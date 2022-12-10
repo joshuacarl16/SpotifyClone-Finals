@@ -1,12 +1,11 @@
 // ignore_for_file: prefer_const_constructors
 // ignore_for_file: prefer_const_literals_to_create_immutables
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
 import 'package:spotifyclone_finals/widgets/song_card.dart';
 
 import '../widgets/album_card.dart';
 import '../widgets/rowalbum_card.dart';
+import 'album_screen.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -187,26 +186,31 @@ class _HomePageState extends State<HomePage> {
                       AlbumCard(
                         label: "Broken Home",
                         image: AssetImage('album1.jpg'),
+                        onTap: () {},
                       ),
                       SizedBox(width: 16),
                       AlbumCard(
                         label: "Blonde",
                         image: AssetImage('album3.jpg'),
+                        onTap: () {},
                       ),
                       SizedBox(width: 16),
                       AlbumCard(
                         label: "Take Care",
                         image: AssetImage('album5.jpg'),
+                        onTap: () {},
                       ),
                       SizedBox(width: 16),
                       AlbumCard(
                         label: "Speak Now",
                         image: AssetImage('album7.jpg'),
+                        onTap: () {},
                       ),
                       SizedBox(width: 16),
                       AlbumCard(
                         label: "Fine Line",
                         image: AssetImage('album9.jpg'),
+                        onTap: () {},
                       ),
                     ],
                   ),
@@ -290,26 +294,31 @@ class _HomePageState extends State<HomePage> {
                           AlbumCard(
                             label: "Luv is Rage 2",
                             image: AssetImage('album2.jpg'),
+                            onTap: () {},
                           ),
                           SizedBox(width: 16),
                           AlbumCard(
                             label: "Fearless",
                             image: AssetImage('album6.jpg'),
+                            onTap: () {},
                           ),
                           SizedBox(width: 16),
                           AlbumCard(
                             label: "Fine Line",
                             image: AssetImage('album9.jpg'),
+                            onTap: () {},
                           ),
                           SizedBox(width: 16),
                           AlbumCard(
                             label: "Speak Now",
                             image: AssetImage('album7.jpg'),
+                            onTap: () {},
                           ),
                           SizedBox(width: 16),
                           AlbumCard(
                             label: "Starboy",
                             image: AssetImage('album8.jpg'),
+                            onTap: () {},
                           ),
                         ],
                       ),
