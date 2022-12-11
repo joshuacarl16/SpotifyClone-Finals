@@ -1,11 +1,8 @@
 // ignore_for_file: prefer_const_constructors
 // ignore_for_file: prefer_const_literals_to_create_immutables
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
 import 'package:spotifyclone_finals/screens/home.dart';
 import 'package:spotifyclone_finals/screens/library.dart';
-import 'package:spotifyclone_finals/screens/profile.dart';
 import 'package:spotifyclone_finals/screens/search.dart';
 
 class Tabbar extends StatefulWidget {
@@ -40,10 +37,6 @@ class _TabbarState extends State<Tabbar> {
             icon: Icon(Icons.library_music),
             label: "Your Library",
           ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.person),
-            label: "Profile",
-          ),
         ],
       ),
       body: Stack(children: [
@@ -58,10 +51,6 @@ class _TabbarState extends State<Tabbar> {
         renderView(
           2,
           Library(),
-        ),
-        renderView(
-          3,
-          ProfilePage(),
         ),
       ]),
     );
