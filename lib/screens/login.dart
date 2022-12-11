@@ -15,7 +15,7 @@ class _LoginState extends State<Login> {
     return Scaffold(
       body: Center(
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                      const Image(
                         image: AssetImage("white_logo.png"),
@@ -28,20 +28,40 @@ class _LoginState extends State<Login> {
                             fontWeight: FontWeight.bold, fontSize: 21),
                       ),
                       const Text(
-                        "Free on Spotify."
+                        "Free on Spotify.",
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold, fontSize: 21
+                        ),
                       ),
                       Column(
                         children: [
-                          ElevatedButton(
-                              onPressed: () {},
-                              child: const Text(
-                                'Sign up free',
-                                style: TextStyle(
-                                  fontSize: 15,
-                                  color: Colors.black,
-                                ),
-                              ),
-                            )
+                          //SIGN UP FREE BUTTON
+                          TextButton(
+                          style: TextButton.styleFrom(
+                            backgroundColor: Colors.green,
+                          ),
+                          onPressed: () { },
+                          child: const Text('Sign up free'),
+                        ),
+
+                          SizedBox(height: 10,),
+
+                          //sign up google
+                          TextButton(
+                            
+                          style: TextButton.styleFrom(
+                            backgroundColor: Colors.transparent,
+                          ),
+                          onPressed: () { },
+                          child: const Text('Sign up free',
+                          style: TextStyle(
+                            color: Colors.white
+                          ),
+                          ),
+                        )
+
+
+                          IconButton(onPressed: onPressed, icon: Image.asset("google.png") )
                         ],
                       ),]
         ),
