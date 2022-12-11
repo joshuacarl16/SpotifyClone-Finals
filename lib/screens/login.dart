@@ -1,5 +1,11 @@
 
-<<<<<<< HEAD
+import 'package:flutter/material.dart';
+import 'package:flutter/src/widgets/container.dart';
+import 'package:flutter/src/widgets/framework.dart';
+
+class Login extends StatefulWidget {
+  const Login({super.key});
+
   @override
   State<Login> createState() => _LoginState();
 }
@@ -65,5 +71,4 @@ class _LoginState extends State<Login> {
     );
   }
 }
-=======
->>>>>>> 1c4db78f3cfd822118a0589f1ecf3e44a201648d
+
