@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_constructors
 // ignore_for_file: prefer_const_literals_to_create_immutables
 import 'package:flutter/material.dart';
+import 'package:spotifyclone_finals/screens/login.dart';
 import 'package:spotifyclone_finals/widgets/song_card.dart';
 
 import '../widgets/album_card.dart';
@@ -59,7 +60,17 @@ class _HomePageState extends State<HomePage> {
                           SizedBox(width: 18),
                           Icon(Icons.history),
                           SizedBox(width: 18),
-                          Icon(Icons.settings),
+                          IconButton(
+                            onPressed: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => Login(),
+                                ),
+                              );
+                            },
+                            icon: Icon(Icons.settings),
+                          )
                         ],
                       ),
                     ],
