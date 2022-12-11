@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
+import 'package:spotifyclone_finals/widgets/genre.dart';
 
 class Search extends StatefulWidget {
   const Search({super.key});
@@ -55,7 +56,7 @@ class _SearchState extends State<Search> {
                                 borderRadius: BorderRadius.circular(3),
                               ),
                               hintStyle: TextStyle(
-                                  color: Colors.black54,
+                                  color: Colors.black,
                                   fontWeight: FontWeight.bold),
                               hintText: 'What do you want to listen to?'),
                         ),
@@ -72,6 +73,81 @@ class _SearchState extends State<Search> {
                             fontWeight: FontWeight.bold, fontSize: 19),
                       )
                     ],
+                  ),
+                  SizedBox(height: 10),
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      children: [
+                        Genre(
+                          Color: Colors.white,
+                        ),
+                        Genre(
+                          Color: Colors.green,
+                        ),
+                      ],
+                    ),
+                  ),
+                  SizedBox(height: 10),
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      children: [
+                        Genre(
+                          Color: Colors.white,
+                        ),
+                        Genre(
+                          Color: Colors.green,
+                        ),
+                      ],
+                    ),
+                  ),
+                  SizedBox(height: 10),
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      children: [
+                        Genre(
+                          Color: Colors.white,
+                        ),
+                        Genre(
+                          Color: Colors.green,
+                        ),
+                      ],
+                    ),
+                  ),
+                  SizedBox(height: 10),
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      children: [
+                        Genre(
+                          Color: Colors.white,
+                        ),
+                        Genre(
+                          Color: Colors.green,
+                        ),
+                      ],
+                    ),
+                  ),
+                  SizedBox(height: 10),
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      children: [
+                        Genre(
+                          Color: Colors.white,
+                        ),
+                        Genre(
+                          Color: Colors.green,
+                        ),
+                      ],
+                    ),
                   ),
                 ],
               ),
