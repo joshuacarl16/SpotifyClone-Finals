@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:spotifyclone_finals/navi/tabbar.dart';
+import 'package:spotifyclone_finals/screens/login.dart';
 
 void main() {
   runApp(MyApp());
@@ -34,7 +35,7 @@ class _MyAppState extends State<MyApp> {
           unselectedItemColor: Colors.white54,
         ),
       ),
-      home: Tabbar(),
+      home: Login(),
     );
   }
 }

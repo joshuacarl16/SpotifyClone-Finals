@@ -45,7 +45,7 @@ class _SearchState extends State<Search> {
                           style: TextStyle(color: Colors.black),
                           decoration: InputDecoration(
                               contentPadding:
-                                  EdgeInsets.symmetric(vertical: 10.0),
+                                  EdgeInsets.symmetric(vertical: 5.0),
                               prefixIcon: Icon(
                                 Icons.search,
                                 color: Colors.black,
@@ -74,14 +74,14 @@ class _SearchState extends State<Search> {
                       )
                     ],
                   ),
-                  SizedBox(height: 10),
+                  SizedBox(height: 5),
                   Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
                         Genre(
-                          Color: Colors.white,
+                          Color: Colors.blue,
                         ),
                         Genre(
                           Color: Colors.green,
@@ -89,62 +89,75 @@ class _SearchState extends State<Search> {
                       ],
                     ),
                   ),
-                  SizedBox(height: 10),
+                  SizedBox(height: 5),
                   Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
                         Genre(
-                          Color: Colors.white,
+                          Color: Colors.red,
+                        ),
+                        Genre(Color: Colors.yellow),
+                      ],
+                    ),
+                  ),
+                  SizedBox(height: 5),
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      children: [
+                        Genre(
+                          Color: Colors.amber,
                         ),
                         Genre(
-                          Color: Colors.green,
+                          Color: Colors.indigo,
                         ),
                       ],
                     ),
                   ),
-                  SizedBox(height: 10),
+                  SizedBox(height: 5),
                   Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
                         Genre(
-                          Color: Colors.white,
+                          Color: Colors.purple,
                         ),
                         Genre(
-                          Color: Colors.green,
+                          Color: Colors.lime,
                         ),
                       ],
                     ),
                   ),
-                  SizedBox(height: 10),
+                  SizedBox(height: 5),
                   Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
                         Genre(
-                          Color: Colors.white,
+                          Color: Colors.orange,
                         ),
                         Genre(
-                          Color: Colors.green,
+                          Color: Colors.lightBlue,
                         ),
                       ],
                     ),
                   ),
-                  SizedBox(height: 10),
+                  SizedBox(height: 5),
                   Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
                         Genre(
-                          Color: Colors.white,
+                          Color: Colors.orange,
                         ),
                         Genre(
-                          Color: Colors.green,
+                          Color: Colors.lightBlue,
                         ),
                       ],
                     ),
