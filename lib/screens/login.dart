@@ -21,48 +21,49 @@ class _LoginState extends State<Login> {
                     children: [
                      const Image(
                         image: AssetImage("white_logo.png"),
-                        width: 50,
-                        height: 50,
+                        width: 40,
+                        height: 40,
                       ),
+
+                      SizedBox(height: 30,),
+
                       const Text(
                         "Millions of songs.",
                         style: TextStyle(
-                            fontWeight: FontWeight.bold, fontSize: 21),
+                            fontWeight: FontWeight.w700, fontSize:30,),
                       ),
+
+                      SizedBox(height:10),
+
                       const Text(
                         "Free on Spotify.",
                         style: TextStyle(
-                          fontWeight: FontWeight.bold, fontSize: 21
-                        ),
+                          fontWeight: FontWeight.w500, fontSize:32),
                       ),
+
+                      SizedBox(height: 20,),
                       Column(
                         children: [
                           //SIGN UP FREE BUTTON
-                          TextButton(
-                          style: TextButton.styleFrom(
-                            backgroundColor: Colors.green,
-                          ),
-                          onPressed: () { },
-                          child: const Text('Sign up free'),
+                       ElevatedButton(
+                        style: ElevatedButton.styleFrom(
+                          backgroundColor: Color.fromARGB(255, 105, 189, 137),
+                            padding: const EdgeInsets.symmetric(horizontal: 120, vertical: 18),
+                            shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(20))),
+                            
+                          onPressed: () {},
+                          child: const Text('Sign up free',
+                         style: TextStyle(color: Colors.black,
+                         fontWeight: FontWeight.w600
+                         ),
+                         ),            
                         ),
 
-                          SizedBox(height: 10,),
+                         SizedBox(height: 10,),
+
 
                           //sign up google
-                          TextButton(
-                            
-                          style: TextButton.styleFrom(
-                            backgroundColor: Colors.transparent,
-                          ),
-                          onPressed: () { },
-                          child: const Text('Sign up free',
-                          style: TextStyle(
-                            color: Colors.white
-                          ),
-                          ),
-                        ),
-
-
                           const SizedBox(height: 10,),
                           IconButton(
                             onPressed: () {
@@ -72,10 +73,14 @@ class _LoginState extends State<Login> {
                               
                               ),
                               );
+                              const Text('Continue with Google');
                             },
+                            
                             icon: Image.asset("google.png") ,
-                           tooltip: 'Continue with Google',
+                             
                             ),
+
+                       
                         ],
                       ),]
         ),
