@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'login.dart';
-class Library extends StatefulWidget {
-  const Library({super.key});
+class Login extends StatefulWidget {
+  const Login({super.key});
 
   @override
-  State<Library> createState() => _LibraryState();
+  State<Login> createState() => _LoginState();
 }
 
-class _LibraryState extends State<Library> {
+class _LoginState extends State<Login> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -17,26 +17,33 @@ class _LibraryState extends State<Library> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Text(
+                     const Image(
+                        image: AssetImage("white_logo.png"),
+                        width: 50,
+                        height: 50,
+                      ),
+                      const Text(
                         "Millions of songs.",
                         style: TextStyle(
                             fontWeight: FontWeight.bold, fontSize: 21),
                       ),
-                      Text(
+                      const Text(
                         "Free on Spotify."
                       ),
-
-                      SizedBox( height: 10),
-
-                                        
-                     TextFormField(
-              decoration: InputDecoration(labelText: 'Password'),
-              obscureText: true,
-             
-            ),
-
-                      
-                    ]
+                      Column(
+                        children: [
+                          ElevatedButton(
+                              onPressed: () {},
+                              child: const Text(
+                                'Sign up free',
+                                style: TextStyle(
+                                  fontSize: 15,
+                                  color: Colors.black,
+                                ),
+                              ),
+                            )
+                        ],
+                      ),]
         ),
         
       ),
