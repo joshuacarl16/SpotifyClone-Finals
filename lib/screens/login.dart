@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
+import 'package:spotifyclone_finals/screens/home.dart';
 
 class Login extends StatefulWidget {
   const Login({super.key});
@@ -59,10 +60,22 @@ class _LoginState extends State<Login> {
                             color: Colors.white
                           ),
                           ),
-                        )
+                        ),
 
 
-                          IconButton(onPressed: onPressed, icon: Image.asset("google.png") )
+                          const SizedBox(height: 10,),
+                          IconButton(
+                            onPressed: () {
+                              Navigator.push(context, 
+                              MaterialPageRoute(
+                                builder: (context) => HomePage(),
+                              
+                              ),
+                              );
+                            },
+                            icon: Image.asset("google.png") ,
+                           tooltip: 'Continue with Google',
+                            ),
                         ],
                       ),]
         ),
