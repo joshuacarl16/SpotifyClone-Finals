@@ -2,14 +2,7 @@
 // ignore_for_file: prefer_const_literals_to_create_immutables
 
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:spotifyclone_finals/screens/home.dart';
-import 'package:spotifyclone_finals/screens/search.dart';
 import 'package:spotifyclone_finals/widgets/playlist.dart';
-
-import '../widgets/songs.dart';
 
 class Library extends StatefulWidget {
   const Library({super.key});
@@ -162,91 +155,91 @@ class _LibraryState extends State<Library> {
                             image: AssetImage("album1.jpg"),
                             label: "Broken Home",
                             label2: "Playlist • Edmoe",
-                            iconPad: EdgeInsets.only(left: 160),
+                            // iconPad: EdgeInsets.only(left: 160),
                           ),
                           Playlist(
                             image: AssetImage("album2.jpg"),
                             label: "The Way Life Goes",
                             label2: "Playlist • Lil Uzi Vert",
-                            iconPad: EdgeInsets.only(left: 128),
+                            // iconPad: EdgeInsets.only(left: 128),
                           ),
                           Playlist(
                             image: AssetImage("album3.jpg"),
                             label: "Blonde",
                             label2: "Playlist • Frank Ocean",
-                            iconPad: EdgeInsets.only(left: 145),
+                            // iconPad: EdgeInsets.only(left: 145),
                           ),
                           Playlist(
                             image: AssetImage("album4.jpg"),
                             label: "Bound 2",
                             label2: "Playlist • Kanye West",
-                            iconPad: EdgeInsets.only(left: 149),
+                            // iconPad: EdgeInsets.only(left: 149),
                           ),
                           Playlist(
                             image: AssetImage("album5.jpg"),
                             label: "Headlines",
                             label2: "Playlist • Drake",
-                            iconPad: EdgeInsets.only(left: 20),
+                            // iconPad: EdgeInsets.only(left: 20),
                           ),
                           Playlist(
                             image: AssetImage("album6.jpg"),
                             label: "White Horse",
                             label2: "Playlist • Taylor Swift",
-                            iconPad: EdgeInsets.only(left: 17),
+                            // iconPad: EdgeInsets.only(left: 17),
                           ),
                           Playlist(
                             image: AssetImage("album8.jpg"),
                             label: "Die For You",
                             label2: "Playlist • The Weeknd",
-                            iconPad: EdgeInsets.only(left: 17),
+                            // iconPad: EdgeInsets.only(left: 17),
                           ),
                           Playlist(
                             image: AssetImage("album1.jpg"),
                             label: "Broken Home",
                             label2: "Playlist • Edmoe",
-                            iconPad: EdgeInsets.only(left: 18),
+                            // iconPad: EdgeInsets.only(left: 18),
                           ),
                           Playlist(
                             image: AssetImage("album2.jpg"),
                             label: "The Way Life Goes",
                             label2: "Playlist • Lil Uzi Vert",
-                            iconPad: EdgeInsets.only(left: 14),
+                            // iconPad: EdgeInsets.only(left: 14),
                           ),
                           Playlist(
                             image: AssetImage("album3.jpg"),
                             label: "Blonde",
                             label2: "Playlist • Frank Ocean",
-                            iconPad: EdgeInsets.only(left: 17),
+                            // iconPad: EdgeInsets.only(left: 17),
                           ),
                           Playlist(
                             image: AssetImage("album1.jpg"),
                             label: "Broken Home",
                             label2: "Playlist • Edmoe",
-                            iconPad: EdgeInsets.only(left: 18),
+                            // iconPad: EdgeInsets.only(left: 18),
                           ),
                           Playlist(
                             image: AssetImage("album2.jpg"),
                             label: "The Way Life Goes",
                             label2: "Playlist • Lil Uzi Vert",
-                            iconPad: EdgeInsets.only(left: 14),
+                            // iconPad: EdgeInsets.only(left: 14),
                           ),
                           Playlist(
                             image: AssetImage("album3.jpg"),
                             label: "Blonde",
                             label2: "Playlist • Frank Ocean",
-                            iconPad: EdgeInsets.only(left: 17),
+                            // iconPad: EdgeInsets.only(left: 17),
                           ),
                           Playlist(
                             image: AssetImage("album4.jpg"),
                             label: "Bound 2",
                             label2: "Playlist • Kanye West",
-                            iconPad: EdgeInsets.only(left: 17),
+                            // iconPad: EdgeInsets.only(left: 17),
                           ),
                           Playlist(
                             image: AssetImage("album5.jpg"),
                             label: "Headlines",
                             label2: "Playlist • Drake",
-                            iconPad: EdgeInsets.only(left: 20),
+                            // iconPad: EdgeInsets.only(left: 20),
                           ),
                         ]),
                   )

@@ -81,10 +81,29 @@ class _SearchState extends State<Search> {
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
                         Genre(
-                          Color: Colors.blue,
+                          Color: Colors.purple,
+                          label: 'Pop',
+                        ),
+                        Genre(
+                          Color: Colors.redAccent,
+                          label: 'Hip Hop',
+                        ),
+                      ],
+                    ),
+                  ),
+                  SizedBox(height: 5),
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      children: [
+                        Genre(
+                          Color: Colors.blueGrey,
+                          label: 'Acoustic',
                         ),
                         Genre(
                           Color: Colors.green,
+                          label: 'K-pop',
                         ),
                       ],
                     ),
@@ -96,23 +115,12 @@ class _SearchState extends State<Search> {
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
                         Genre(
-                          Color: Colors.red,
-                        ),
-                        Genre(Color: Colors.yellow),
-                      ],
-                    ),
-                  ),
-                  SizedBox(height: 5),
-                  Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                      children: [
-                        Genre(
-                          Color: Colors.amber,
+                          Color: Colors.orange,
+                          label: 'OPM',
                         ),
                         Genre(
-                          Color: Colors.indigo,
+                          Color: Colors.green,
+                          label: 'Latin',
                         ),
                       ],
                     ),
@@ -125,9 +133,11 @@ class _SearchState extends State<Search> {
                       children: [
                         Genre(
                           Color: Colors.purple,
+                          label: 'Indie',
                         ),
                         Genre(
                           Color: Colors.lime,
+                          label: 'R&B',
                         ),
                       ],
                     ),
@@ -140,9 +150,11 @@ class _SearchState extends State<Search> {
                       children: [
                         Genre(
                           Color: Colors.orange,
+                          label: 'Chill',
                         ),
                         Genre(
                           Color: Colors.lightBlue,
+                          label: 'Country',
                         ),
                       ],
                     ),
@@ -154,10 +166,29 @@ class _SearchState extends State<Search> {
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
                         Genre(
-                          Color: Colors.orange,
+                          Color: Colors.red,
+                          label: 'Rock',
                         ),
                         Genre(
                           Color: Colors.lightBlue,
+                          label: 'Party',
+                        ),
+                      ],
+                    ),
+                  ),
+                  SizedBox(height: 5),
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      children: [
+                        Genre(
+                          Color: Colors.blueGrey,
+                          label: 'Sleep',
+                        ),
+                        Genre(
+                          Color: Colors.lime,
+                          label: 'Jazz',
                         ),
                       ],
                     ),

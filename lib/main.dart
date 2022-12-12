@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:spotifyclone_finals/navi/tabbar.dart';
+import 'package:spotifyclone_finals/screens/library.dart';
 import 'package:spotifyclone_finals/screens/login.dart';
+import 'package:spotifyclone_finals/screens/search.dart';
 
 void main() {
   runApp(MyApp());
