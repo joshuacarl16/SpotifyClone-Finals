@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
 
 class ProfilePage extends StatefulWidget {
   const ProfilePage({super.key});
@@ -14,34 +12,32 @@ class _ProfilePageState extends State<ProfilePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        // child: Column(
-        //   mainAxisAlignment: MainAxisAlignment.spaceBetween,
-        //             children: [
-        //               Text(
-        //                 "Millions of songs.",
-        //                 style: TextStyle(
-        //                     fontWeight: FontWeight.bold, fontSize: 21),
-        //               ),
-        //               Text(
-        //                 "Free on Spotify.",
-        //                 style: TextStyle(
-        //                     fontWeight: FontWeight.bold, fontSize: 21),
-        //               ),
+          // child: Column(
+          //   mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          //             children: [
+          //               Text(
+          //                 "Millions of songs.",
+          //                 style: TextStyle(
+          //                     fontWeight: FontWeight.bold, fontSize: 21),
+          //               ),
+          //               Text(
+          //                 "Free on Spotify.",
+          //                 style: TextStyle(
+          //                     fontWeight: FontWeight.bold, fontSize: 21),
+          //               ),
 
-        //               SizedBox( height: 10),
+          //               SizedBox( height: 10),
 
-                                        
-        //             TextFormField(
-        //               decoration: const InputDecoration(labelText: 'Password'),
-        //                obscureText: true,
-                        
-        //           )
+          //             TextFormField(
+          //               decoration: const InputDecoration(labelText: 'Password'),
+          //                obscureText: true,
 
-                      
-        //             ]
-        // ),
-        
-      ),
+          //           )
+
+          //             ]
+          // ),
+
+          ),
     );
   }
 }

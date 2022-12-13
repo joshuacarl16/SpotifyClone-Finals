@@ -6,7 +6,6 @@ import 'package:spotifyclone_finals/widgets/song_card.dart';
 
 import '../widgets/album_card.dart';
 import '../widgets/rowalbum_card.dart';
-import 'album_screen.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -136,8 +135,8 @@ class _HomePageState extends State<HomePage> {
                           ),
                           SizedBox(width: 16),
                           RowAlbumCard(
-                            label: 'Bound 2',
-                            image: AssetImage('album4.jpg'),
+                            label: 'This is Gospel',
+                            image: AssetImage('album19.jpg'),
                           ),
                         ],
                       ),
@@ -195,14 +194,14 @@ class _HomePageState extends State<HomePage> {
                   child: Row(
                     children: [
                       AlbumCard(
-                        label: "Broken Home",
-                        image: AssetImage('album1.jpg'),
+                        label: "World Cup",
+                        image: AssetImage('album18.jpg'),
                         onTap: () {},
                       ),
                       SizedBox(width: 16),
                       AlbumCard(
-                        label: "Blonde",
-                        image: AssetImage('album3.jpg'),
+                        label: "Spiderverse Soundtrack",
+                        image: AssetImage('album17.jpg'),
                         onTap: () {},
                       ),
                       SizedBox(width: 16),
@@ -250,8 +249,8 @@ class _HomePageState extends State<HomePage> {
                           EdgeInsets.symmetric(horizontal: 16, vertical: 0),
                       child: Row(children: [
                         SongCard(
-                          label: "Panic! At\nThe Disco",
-                          image: AssetImage('album13.jpg'),
+                          label: "Nasa Iyo Na\nAng Lahat",
+                          image: AssetImage('album16.jpg'),
                         ),
                         SizedBox(width: 16),
                         SongCard(
@@ -309,8 +308,8 @@ class _HomePageState extends State<HomePage> {
                           ),
                           SizedBox(width: 16),
                           AlbumCard(
-                            label: "Fearless",
-                            image: AssetImage('album6.jpg'),
+                            label: "U Smile",
+                            image: AssetImage('album20.jpg'),
                             onTap: () {},
                           ),
                           SizedBox(width: 16),
